@@ -6,6 +6,6 @@ elsif length == 2
   array.join (" and ")
 else
 array[-1] = "and #{array[-1]}"
-array.join (",")
+array.join (", ")
 end
 end
